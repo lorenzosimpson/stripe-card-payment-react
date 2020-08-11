@@ -7,6 +7,7 @@ import "./App.css";
 import { Route } from 'react-router-dom';
 import Store from "./components/Store";
 
+
 // Make sure to call loadStripe outside of a component’s render to avoid
 // recreating the Stripe object on every render.
 // loadStripe is initialized with your real test publishable API key.
