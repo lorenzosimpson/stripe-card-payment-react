@@ -6,12 +6,13 @@ function Dash(props) {
         <div className='dashboard-wrapper'>
             <div className='side-nav'>
                 <ul>
-                    <li>Option 1</li>
-                    <li>Option 2</li>
-                    <li>Option 3</li>
+                    <li>Dresses</li>
+                    <li>Shoes</li>
+                    <li>Hats</li>
                 </ul>
             </div>
             <div className='store-wrapper'>
+                <div className='store-inner'>
                 <MainCard />
                 <MainCard />
                 <MainCard />
@@ -22,7 +23,7 @@ function Dash(props) {
                 <MainCard />
                 <MainCard />
                 <MainCard />
-
+                </div>
             </div>
         </div>
     );

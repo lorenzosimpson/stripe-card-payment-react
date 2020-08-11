@@ -187,14 +187,24 @@ margin: 0 auto;
   width: 20%;
   /* border: 1px solid red; */
 }
+
+.side-nav ul {
+  padding-left: 4em; 
+}
+
 .side-nav li {
   font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding: 1em 0 1em 0;
 }
 .store-wrapper {
+  width: 80%;
+}
+.store-inner {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 80%;
   background: rgb(252, 252, 252);
   overflow:scroll;
   
@@ -204,7 +214,7 @@ li {
   list-style: none;
 }
 .main-card {
-  width: 300px;
+  width: 270px;
   font-family: muli;
   font-size: 0.9em;
   margin: 0.2em;
